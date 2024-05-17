@@ -1,5 +1,6 @@
 	-- create Database TicketBookingSystem
 	CREATE DATABASE TicketBookingSystem;
+	use TicketBookingSystem
 		select * from venue;
 		select * from Event;
 		select * from customer;
@@ -95,6 +96,9 @@
 	(9, 9, 9, 6, 333.00, '2023-08-15'),
 	(10, 10, 10, 2, 240.00, '2023-09-01');
 	select * from Booking;
+	select * from Event;
+	select * from Customer;
+	select * from venue;
 	--2. Write a SQL query to list all Events.
 	SELECT * FROM Event;
 	--3. Write a SQL query to select events with available tickets.
