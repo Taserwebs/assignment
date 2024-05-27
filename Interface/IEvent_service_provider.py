@@ -1,12 +1,12 @@
 from abc import ABC, abstractmethod
 from Util.DBconnenction import DBConnection
-from Entity import Event
+from Entity import Events
 
 
 class IEvent_Service_Provider(ABC, DBConnection):
 
     @abstractmethod
-    def create_event(self, event: Event):
+    def create_event(self, event: Events):
         pass
 
     @abstractmethod
